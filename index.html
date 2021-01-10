@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="css/css1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="script/script1.js"></script>
+
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://img.icons8.com/cute-clipart/64/000000/home.png"/>
+
+        <a class="navbar-brand" href="#"> Home Designer</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Interior Design<span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Room Design
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="template/modular-kitchen.html">Modular Kitchen</a>
+                <a class="dropdown-item" href="template/bedroom.html">Bedroom</a>
+                <a class="dropdown-item" href="template/living-room.html">Living Room</a>
+                <a class="dropdown-item" href="template/space-saving.html">Space Saving Furniture</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="template/office-design.html">Office Design</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a href="/template/aboutus.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="/template/contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login/Register</button>
+          </form>
+        </div>
+      </nav>
+
+
+      
+
+
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 background-img" src="resources/bg1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 background-img" src="resources/bg2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 background-img" src="resources/bg4.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+     <form action="POST">
+      <div class="banner-input-designer">
+        <h3>Meet our Designer Online</h3>
+
+        <input type="text" placeholder="Enter your name" class="input-banner">
+        <input type="text" placeholder="Enter your email" class="input-banner">
+        <input type="text" placeholder="Enter your mobile number" class="input-banner">
+        <div class="checkbox">
+          <label><input type="checkbox" value="">You can reach me on WhatsApp</label>
+        </div>
+        <input type="text" placeholder="Enter your residence pincode" class="input-banner">
+        <button type="button" class="btn btn-primary btn-lg btn-block btn-banner" onclick="thankyou1()">BOOK FREE ONLINE CONSULTANT</button>
+
+    </div>
+     </form>
+
+
+      <div class="heading">
+        <h3 class="h3">Home Interior Designs</h3>
+        <p>Find design ideas from our design gallery or<br> book a meeting with a dedicated design expert</p>
+      </div>
+      
+
+
+
+
+      <!-- Crousel -->
+      <!-- Images -->
+
+      
+        
+      <div class="container my-4">
+
+        
+    
+        <hr class="my-4">
+    
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+          </div>
+          <!--/.Controls-->
+    
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+            <li data-target="#multi-item-example" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+    
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+    
+            <!--First slide-->
+            <div class="carousel-item active">
+    
+              <div class="row">
+                <div class="col-md-4 ">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/1.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Eclectic Theme Interiors For Living Room</h4>
+                      <p class="card-text">
+                        Live the way you deserve with beautiful living room spaces. Check out our complete range of home interior designs and be inspired!
+                      </p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4  clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/3.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Fresh Blue Home Interiors
+                      </h4>
+                      <p class="card-text">
+                        Your kids will love our vibrant interior designs crafted specially to meet the preferences of the little ones. You can create personalized home interior designs with HomeLane?s design
+                      </p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4  clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/eclectic-home.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Eclectic Theme Home Interiors
+                      </h4>
+                      <p class="card-text">
+
+                        Our interior design experts work with you to create the space that you have been dreaming about. We create home interior designs that are unique to you and your preferences.
+                      </p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <!--/.First slide-->
+    
+            <!--Second slide-->
+            <div class="carousel-item">
+    
+              <div class="row">
+                <div class="col-md-4 ">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/7.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Pop Theme Home Interiors
+                      </h4>
+                      <p class="card-text">Complete interior design solutions for your living room, starting from spectacular TV units, Kathedra range of sofas and much more. Book a free design consultation with us and get</p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4  clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/5.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Indian Theme Home Interiors
+                      </h4>
+                      <p class="card-text">
+                        Cozy, beautiful bedrooms with clever storage designs are a must-have for all urbanites.</p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4  clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/kid.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Kid Friendly Theme Home Interiors
+                      </h4>
+                      <p class="card-text">Our interior designs for your bedroom ensure that you have a serene, beautiful hide-out to escape the world. Create home interior designs for you with HomeLane?s design experts.</p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <!--/.Second slide-->
+    
+            <!--Third slide-->
+            <div class="carousel-item">
+    
+              <div class="row">
+                <div class="col-md-4 ">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/modular.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Modular Kitchen</h4>
+                      <p class="card-text">A modular kitchen is simply a modern and flexible way to design your kitchen, allowing you to choose a variety of cabinets for different functions which come in “modules.”</p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4  clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/gaming.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Gaming Room</h4>
+                      <p class="card-text"> A better experience. A lot of people who only have two monitors use it for multitasking like mentioned above. Triple monitor setups are usually aimed for gaming on all three.</p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4  clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="resources/dining.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Dining Room</h4>
+                      <p class="card-text">A dining room is a room for consuming food. In modern times it is usually adjacent to the kitchen for convenience in serving, although in medieval times it was often on an entirely different floor level.</p>
+                      <!-- <a class="btn btn-primary">Read More</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <!--/.Third slide-->
+    
+          </div>
+          <!--/.Slides-->
+    
+        </div>
+        <!--/.Carousel Wrapper-->
+    
+    
+      </div>      
+
+
+
+
+      <!-- Modular Kitchen Section -->
+
+      <div class="Modular-Kitchen">
+        
+        <div class="container">
+          <h2 class="h2">Modular Kitchen Design</h2>
+          <div class="row">
+            <div class="col-sm">
+              <img src="resources/mk1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="resources/mk2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="resources/mk3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="resources/mk4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <a href="/template/modular-kitchen.html" style="margin-left: 90%;">See all>></a>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Wardrobe Designs -->
+      <div class="Modular-Kitchen">
+        
+        <div class="container">
+          <h2 class="h2">Wardrobe Design</h2>
+          <div class="row">
+            <div class="col-sm">
+              <img src="resources/wardrobe1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="resources/wardrobe2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="resources/wardrobe3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="resources/wardrobe4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <a href="/template/bedroom.html" style="margin-left: 90%;">See all>></a>
+        </div>
+      </div>
+
+      
+        
+      
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+.form-group {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    /* width: 50%; */
+    display: block;
+    margin-left: 48%;
+    margin-right: auto;
+}

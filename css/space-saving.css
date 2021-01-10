@@ -1,0 +1,10 @@
+.col-md img {
+    /* margin-top: 15%; */
+    float: left;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+h2 {
+    margin-left: 10%;
+}
